@@ -17,4 +17,4 @@ Virtual DOM 은 가상의 DOM , 메모리에 가상으로 존재하는 DOM 으�
 그리고 나서 리액트에 비교 알고리즘을 통해 실제브라우저에 보여지고 있는 DOM 과 비교를 한 후, 차이가 있는 곳을 감지하여  
 이를 실제 DOM 에 패치시켜줍니다. 이를 통하여 , "업데이트를 어떻게 할 지" 에 대한 고민을 하지 않으면서,빠른 성능도 지켜낼 수 있게 되었습니다.
 
-<img src="https://i.imgur.com/u6YnxUS.png" width="600px" height="500px"></img>
+<img src="https://i.imgur.com/u6YnxUS.png" width="700px" height="500px"></img>
