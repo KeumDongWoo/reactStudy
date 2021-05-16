@@ -18,3 +18,19 @@ Virtual DOM 은 가상의 DOM , 메모리에 가상으로 존재하는 DOM 으�
 이를 통하여 "업데이트를 어떻게 할 지" 에 대한 고민을 하지 않으면서 빠른 성능도 지켜낼 수 있습니다.
 
 <img src="https://i.imgur.com/u6YnxUS.png" width="800px" height="500px"></img>
+
+## JSX
+
+유의사항
+
+1. tag는 항상닫아야함
+2. fragment(비어있는테그) 사용 가능 <></>
+3. javascript 값 사용하기위해 {} 사용
+4. style 추가시 변수로 선언후 카멜케이스로 작성 ( ex : background-color -> backgroundColor ) , className = "" 으로 적용
+5. 주석 작성시 중괄호를 감싸야함 또는 // 로 작성가능 ex) {/_ 주석 _/} or //
+
+참조 : https://ko.reactjs.org/docs/introducing-jsx.html
+
+## props
+
+props,children
